@@ -23,5 +23,13 @@ print(not True)
 print()
 
 #Assignment operators
+x = 5 + 10
+print(x)
+x = 10
+x += 5
+print(x)
 
+a = 5
+a /= 2
+print(a)
 #Conditional operators
