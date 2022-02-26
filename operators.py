@@ -20,7 +20,7 @@ print(5 == 5 and 10 == 10)
 print(10 == 10 and 10 == 11)
 print(10 == 10 or 10 == 11)
 print(not True)
-print()
+
 
 #Assignment operators
 x = 5 + 10
@@ -32,4 +32,7 @@ print(x)
 a = 5
 a /= 2
 print(a)
+
 #Conditional operators
+name = "python"
+print("False!" if name != "python" else "True!") #ternary operator
